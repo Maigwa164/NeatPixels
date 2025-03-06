@@ -164,3 +164,12 @@ a:active {
   width: 800px;
   height: auto;
 }
+
+nav a:link {
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+nav a:link:last-child {
+  margin-right: 0;
+}
