@@ -137,6 +137,7 @@ p {
 
 .product-title::after {
   content: "SALE";
+  letter-spacing: 2px;
   background-color: red;
   color: white;
   font-size: 15px;
