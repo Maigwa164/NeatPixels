@@ -25,9 +25,9 @@ body {
   margin-bottom: 60px;
   height: 80px;
 }
-
 nav {
   font-size: 18px;
+  text-align: right;
 }
 
 article {
