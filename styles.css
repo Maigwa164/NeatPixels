@@ -277,3 +277,22 @@ footer {
   margin-bottom: 0;
   margin-left: 15px;
 }
+.related-post {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.related-link:link {
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.related-author {
+  margin-bottom: 0;
+  font-size: 14;
+  font-weight: normal;
+  font-style: italic;
+}
