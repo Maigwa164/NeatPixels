@@ -28,7 +28,7 @@ body {
 .price {
   font-size: 24px;
   margin-bottom: 10px;
-  float: left;
+  /* float: left; */
 }
 
 .shipping {
@@ -36,9 +36,9 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   color: #777;
-  margin-bottom: 20px;
-  float: right;
-  margin-top: 10px;
+  /* margin-bottom: 20px; */
+  /* float: right; */
+  /* margin-top: 10px; */
 }
 .product-description {
   clear: both;
@@ -92,56 +92,59 @@ p {
 }
 
 .colors {
-  margin-top: 10px;
+  display: flex;
+  gap: 15px;
 }
 .color-one {
   height: 20px;
   width: 20px;
   background-color: #000;
-  display: inline-block;
-  margin-right: 10px;
+  /* display: inline-block;
+  margin-right: 10px; */
 }
 
 .color-two {
   height: 20px;
   width: 20px;
   background-color: blue;
-  display: inline-block;
-  margin-right: 10px;
+  /* display: inline-block;
+  margin-right: 10px; */
 }
 
 .color-three {
   height: 20px;
   width: 20px;
   background-color: red;
-  display: inline-block;
-  margin-right: 10px;
+  /* display: inline-block;
+  margin-right: 10px; */
 }
 
 .color-four {
   height: 20px;
   width: 20px;
   background-color: yellow;
-  display: inline-block;
-  margin-right: 10px;
+  /* display: inline-block;
+  margin-right: 10px; */
 }
 
 .color-five {
   height: 20px;
   width: 20px;
   background-color: green;
-  display: inline-block;
-  margin-right: 10px;
+  /* display: inline-block;
+  margin-right: 10px; */
 }
 
 .color-six {
   height: 20px;
   width: 20px;
   background-color: brown;
-  display: inline-block;
-  margin-right: 10px;
+  /* display: inline-block;
+  margin-right: 10px; */
 }
 
+/*****FLOAT*****/
+/*
 .product-title::after {
   content: "SALE";
   letter-spacing: 2px;
@@ -167,4 +170,30 @@ p {
   float: left;
   width: 243px;
   margin-top: 20px;
+}
+*/
+.row-1 {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  /* align-items: center; */
+}
+
+.small-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.product-info-container {
+  margin-top: 20px;
+  flex: 1;
+}
+.product-detail-container {
+  margin-top: 20px;
+  flex: 1;
+}
+
+.more-info {
+  display: inline-block;
+  margin-bottom: 20px;
 }
