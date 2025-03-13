@@ -174,7 +174,7 @@ a:active {
 nav a:link {
   display: inline-block;
   margin-right: 30px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 nav a:link:last-child {
   margin-right: 0;
@@ -262,3 +262,8 @@ footer {
   clear: both;
 }
 */
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
