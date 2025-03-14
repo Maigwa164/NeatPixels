@@ -14,7 +14,7 @@
       }
       .el--3 {
         background-color: green;
-        height: 150px;
+        /* height: 150px; */
       }
       .el--4 {
         background-color: goldenrod;
@@ -39,8 +39,9 @@
         font-size: 40px;
         margin: 40px;
         display: grid;
-        grid-template-columns: 200px 200px 100px 100px;
-        grid-template-rows: 300px 200px;
+        grid-template-columns: repeat(4, 1fr);
+        height: 500px;
+        grid-template-rows: 1fr auto;
 
         column-gap: 30px;
         row-gap: 60px;
