@@ -73,12 +73,25 @@
         font-family: sans-serif;
         background-color: black;
         font-size: 40px;
-        margin: 500px;
+        margin: 40px;
 
         width: 700px;
         height: 600px;
 
         /* CSS GRID */
+        display: grid;
+        grid-template-columns: 125px 200px 125px;
+        grid-template-rows: 250px 100px;
+
+        gap: 50px;
+
+        /*Aligning tracks inside grid container*/
+        justify-content: center;
+        align-content: center;
+
+        /* Aligning items inside cells*/
+        align-items: center;
+        justify-items: center;
       }
     </style>
   </head>
